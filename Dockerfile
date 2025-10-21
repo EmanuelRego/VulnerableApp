@@ -1,7 +1,7 @@
 # Vulnerable Dockerfile with multiple security issues
 
 # VULNERABLE: Using outdated base image with known vulnerabilities
-FROM ubuntu:18.04
+FROM ubuntu:24.04
 
 # VULNERABLE: Running as root user
 USER root
